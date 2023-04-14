@@ -47,3 +47,4 @@ git push -u origin <new-feature-name>
 ```
 The `-u` flag adds the new branch as the remote tracking branch after which `git push` can be used without any parameters.
 
+### [Atlassian](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow) reccommend
