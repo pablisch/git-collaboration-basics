@@ -3,8 +3,8 @@
 
 NO code is written on the main branch.
 ALL code is written on a feature branch related to a single feature.
-Use an agreed naming convention, e.g. <status>/<dev-initials>/<feature>
-Example: new/pj/user-repository or update/pj-qr/login-page
+Use an agreed naming convention, e.g. `<status>/<dev-initials>/<feature>`
+Example: `new/pj/user-repository` or `update/pj-qr/login-page`
 
 ALL feature branches should start from the latest main code (from [Atlassian](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)):
 ```
