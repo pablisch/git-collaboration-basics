@@ -37,7 +37,7 @@ The feature branch should be used exactly as you would when working on the main 
 
 Well thought out commit messages and frequent pushes will help your team know what is going on. Although you may be working on another branch, anything that is pushed is accessible to the whole team on GitHub.
 ```
-git status echo '👉🏻 git 👻  echo '🚀 
+git status
 git add .
 git commit -m "changes"
 ```
