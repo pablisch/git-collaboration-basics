@@ -43,14 +43,14 @@ git commit -m "changes"
 ```
 Don't forget to push your commits to the remote repo.
 ```
-git push -u origin <new-feature-name>
+git push -u origin <feature-branch-name>
 ```
 The `-u` flag adds the new branch as the remote tracking branch after which `git push` can be used without any parameters.
 
 ### Pull requests and reviews
 
 * WORKFLOW
-> pull 'main'.
+- pull 'main'.
 > make pull request
 >> inform team
 > 
@@ -68,6 +68,11 @@ Pull the latest code from 'main' before making a pull request to limit conflicts
 ```
 git checkout main
 git pull origin main
+git checkout <feature-branch-name>
 ```
-Then checkout back to your feature branch and 
+Then make a pull request and inform the team.
+A member of the team should let everyone else know they are responding and the review the PR.
+Any suggestions should be acted on, commited and pushed.
+
+If there may have been changes to 'main' since the PR was made, it is worth pulling the latest code from 'main' again before completing the PR.
 
