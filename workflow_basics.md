@@ -37,9 +37,9 @@ The feature branch should be used exactly as you would when working on the main 
 
 Well thought out commit messages and frequent pushes will help your team know what is going on. Although you may be working on another branch, anything that is pushed is accessible to the whole team on GitHub.
 ```
-git status
+git status echo '👉🏻 git 👻  echo '🚀 
 git add .
-git commit
+git commit -m "changes"
 ```
 Don't forget to push your commits to the remote repo.
 ```
@@ -47,4 +47,22 @@ git push -u origin <new-feature-name>
 ```
 The `-u` flag adds the new branch as the remote tracking branch after which `git push` can be used without any parameters.
 
-### [Atlassian](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow) reccommend
+### Pull requests and reviews
+
+* WORKFLOW
+> pull 'main'
+> make pull request
+> inform team
+> review by team member
+> make changes based on review
+> commit updates
+> pull 'main'
+> complete pull request
+
+Pull the latest code from 'main' before making a pull request to limit conflicts during the pull request.
+```
+git checkout main
+git pull origin main
+```
+Then checkout back to your feature branch and 
+
