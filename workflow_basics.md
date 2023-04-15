@@ -51,12 +51,19 @@ The `-u` flag adds the new branch as the remote tracking branch after which `git
 
 * WORKFLOW
 > pull 'main'
+> 
 > make pull request
+> 
 > inform team
+> 
 > review by team member
+> 
 > make changes based on review
+> 
 > commit updates
+> 
 > pull 'main'
+> 
 > complete pull request
 
 Pull the latest code from 'main' before making a pull request to limit conflicts during the pull request.
