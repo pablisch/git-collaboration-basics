@@ -51,10 +51,8 @@ The `-u` flag adds the new branch as the remote tracking branch after which `git
 
 * WORKFLOW
 > pull 'main'
-> 
 > make pull request
-> 
-> inform team
+>> inform team
 > 
 > review by team member
 > 
